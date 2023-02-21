@@ -72,7 +72,7 @@ function filterItems(e){
 let a=document.getElementsByTagName("li")[0]
 
 let editBtn = document.createElement('button');
-editBtn.className = 'btn btn-danger btn-sm float-right Edit';
+editBtn.className = 'btn  btn-sm float-right Edit';
 editBtn.appendChild(document.createTextNode('Edit'));
 a.prepend(editBtn)
 
@@ -80,7 +80,7 @@ a.prepend(editBtn)
 let b=document.getElementsByTagName("li")[1]
 
 let editBtn1 = document.createElement('button');
-editBtn1.className = 'btn btn-danger btn-sm float-right Edit';
+editBtn1.className = 'btn  btn-sm float-right Edit';
 editBtn1.appendChild(document.createTextNode('Edit'));
 b.prepend(editBtn1)
 
@@ -89,7 +89,7 @@ b.prepend(editBtn1)
 let c=document.getElementsByTagName("li")[2]
 
 let editBtn2 = document.createElement('button');
-editBtn2.className = 'btn btn-danger btn-sm float-right Edit';
+editBtn2.className = 'btn  btn-sm float-right Edit';
 editBtn2.appendChild(document.createTextNode('Edit'));
 c.prepend(editBtn2)
 
@@ -97,6 +97,6 @@ c.prepend(editBtn2)
 let d=document.getElementsByTagName("li")[3]
 
 let editBtn3 = document.createElement('button');
-editBtn3.className = 'btn btn-danger btn-sm float-right Edit';
+editBtn3.className = 'btn  btn-sm float-right Edit';
 editBtn3.appendChild(document.createTextNode('Edit'));
 d.prepend(editBtn3)

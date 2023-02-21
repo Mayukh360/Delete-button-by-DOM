@@ -32,8 +32,17 @@ function addItem(e){
   // Append text node
   deleteBtn.appendChild(document.createTextNode('X'));
 
+ //Edit button
+  let editBtn = document.createElement('button');
+ 
+  editBtn.className = 'btn  btn-sm float-right Edit';
+ 
+  editBtn.appendChild(document.createTextNode('Edit'));
+
   // Append button to li
-  li.appendChild(deleteBtn);
+  li.appendChild(deleteBtn );
+  li.prepend(editBtn)
+  
 
   // Append li to list
   itemList.appendChild(li);
@@ -100,3 +109,10 @@ let editBtn3 = document.createElement('button');
 editBtn3.className = 'btn  btn-sm float-right Edit';
 editBtn3.appendChild(document.createTextNode('Edit'));
 d.prepend(editBtn3)
+
+
+
+
+
+
+//Question--9
